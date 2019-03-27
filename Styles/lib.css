@@ -28,21 +28,7 @@
 .row > *{
     display:inline-block;
 }
-.vat {
-    vertical-align: top;
-}
-.vac {
-    vertical-align: middle;
-}
-.vab {
-    vertical-align: bottom;
-}
-.tx-a-vc{
-    line-height:100%;
-}
-.tx-a-hc{
-    text-align: center;
-}
+
 div[class^="col"] {
     padding: 5px;
 }
@@ -94,7 +80,7 @@ div[class^="col"] {
 .col-1 {
     width: 6.25%; 
 }
-
+/* toggle formatters for expansion/ collapsing */
 .toggle-r {
     width: 15px;
     position: absolute;
@@ -107,6 +93,27 @@ div[class^="col"] {
     -webkit-transform: rotate(180deg); /* Safari and Chrome */
     -o-transform: rotate(180deg); /* Opera */
     }
+/*Header panels*/
+.head-lg h1 {
+    display: inline-block;
+    font-size: 2.5em;
+    width: 74%;
+    padding: 18px 20px;
+}
+.head-m h1 {
+    display: inline-block;
+    font-size: 2.0em;
+    width: 74%;
+    padding: 15px 15px;
+}
+.head-s h1 {
+    display: inline-block;
+    font-size: 1.5em;
+    width: 74%;
+    padding: 10px 10px;
+}
+
+    /* Horizontal Menus */
 .hmenu-lg {
     overflow: hidden;
     font-size: 24px;
@@ -115,11 +122,7 @@ div[class^="col"] {
     padding: 10px 15px 0px 15px;
     text-align: inherit;
 }
-.hmenu-lg h1 {
-    display: inline-block;
-    width: 74%;
-    text-align: left;
-}
+
 .hmenu-lg a{
     display: inline-block;
     position: relative;
@@ -219,6 +222,7 @@ div[class^="col"] {
 .search-1{
     display: inline-block;
     width: 25%;
+    text-align: right;
 }
 .search-1 input {
     display: inline-block;
@@ -237,71 +241,22 @@ div[class^="col"] {
     margin: 25px 0px 0px 0px;
     border-radius: 0px 8px 8px 0px;
 }
-
-p,div,ul,li{
+/* text formatters for alignment Note: all basic text elements are designed to inherit font-sizes from the parent divs. */
+p,div,ul,ol,li, a{
     font-size: inherit;
 }
-
-.pfont {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.vat {
+    vertical-align: top;
 }
-.sfont {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.vac {
+    vertical-align: middle;
 }
-
-.style-pri-1{
-    background-color: white;
+.vab {
+    vertical-align: bottom;
 }
-.tx-sz-sm {
-    font-size: .8em;
+.tx-a-vc{
+    line-height:100%;
 }
-.style-pri-2{
-    background-color: rgb(218, 218, 218);
+.tx-a-hc{
+    text-align: center;
 }
-.style-pri-3{
-    background-color: rgb(26, 113, 148);
-    color: white;
-}
-.style-pri-4{
-    background-color: rgb(163, 195, 241);
-}
-
-.bg-nav-1 {
-    background-color: rgb(26, 113, 148);
-    color: white;
-} 
-
-.bg-nav-1 a:hover{
-    background-color: rgb(6, 60, 82);
-    color: white;
-
-} 
-
-.bg-nav-2 {
-    background-color: rgb(66, 66, 66);
-    color: white;
-} 
-
-.bg-nav-2 a:hover{
-    background-color: rgb(39, 51, 56);
-    color: white;
-    
-} 
-.bg-nav-3 {
-    background-color: rgb(126, 53, 53);
-    color: white;
-} 
-
-.bg-nav-3 a:hover{
-    background-color: rgb(104, 124, 133);
-    color: white;
-} 
-.bg-nav-4 {
-    background-color: white;
-    color: black;
-} 
-
-.bg-nav-4 a:hover{
-    background-color: rgb(104, 124, 133);
-    color: white;
-} 
