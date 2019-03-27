@@ -1,0 +1,53 @@
+
+
+.pfont {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sfont {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.style-pri-1{
+    background-color: white;
+}
+.style-pri-2{
+    background-color: rgb(218, 218, 218);
+}
+.style-pri-3{
+    background-color: rgb(26, 113, 148);
+    color: white;
+}
+.style-pri-4{
+    background-color: rgb(163, 195, 241);
+}
+
+.bg-nav-1 {
+    background-color: rgb(26, 113, 148);
+    color: white;
+} 
+
+.bg-nav-1 a:hover{
+    background-color: rgb(6, 60, 82);
+    color: white;
+
+} 
+
+.bg-nav-2 {
+    background-color: rgb(66, 66, 66);
+    color: white;
+} 
+
+.bg-nav-2 a:hover{
+    background-color: rgb(39, 51, 56);
+    color: white;
+    
+} 
+.bg-nav-3 {
+    background-color: rgb(126, 53, 53);
+    color: white;
+} 
+
+.bg-nav-3 a:hover{
+    background-color: rgb(104, 124, 133);
+    color: white;
+} 
