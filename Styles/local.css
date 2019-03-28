@@ -1,11 +1,11 @@
 /* Local Style options. 
- pfont is primary font family
- sfont is secondary font family
- style handles background color and font color
- tx-sz sets configurable font sizing (note relative sizing for headers)
- bg-nav options provide the structure for styling hovers and dropdowns on header nav bars. apply to either the entire header div or the menu itself
- */
- .pfont {
+pfont is primary font family
+sfont is secondary font family
+style handles background color and font color
+tx-sz sets configurable font sizing (note relative sizing for headers)
+bg-nav options provide the structure for styling hovers and dropdowns on header nav bars. apply to either the entire header div or the menu itself
+*/
+.pfont {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .sfont {
