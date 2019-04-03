@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../static/styles/lib.css">
+    <link rel="stylesheet" type="text/css" href="../static/styles/local.css">
+    
+ <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='../static/styles/lib.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='../static/styles/local.css') }}">
+     
+    linking a javascript file 
+    <script type="text/javascript" src="{{ url_for('static', filename='../static/localjs/script.js') }}"></script>
+    <img src="{{ url_for('static', filename='img/my_img.png') }}"> 
+<script src="../../../../JS Utils/less.js/less-less.js-162327a/dist/less.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../static/localjs/script.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="page-lg pfont bg-pri-1">
+        <div class="head">
+
+            <div class="head-lg bg-nav-1">
+                <h1>Header</h1>
+                <!--
+            -->
+                <div class="search-1">
+                    <input type="search" placeholder="Search Site">
+                    <button type="submit">GO</button>
+                </div>
+                <div class="hmenu-lg bg-nav-1">
+                    <a href="">nondrop</a>
+                    <div class="h-drop">
+                        <a class="h-drop-link">drop</a>
+                        <div class="h-sub">
+                            <a href="">sublink</a>
+                            <a href="">sub2</a>
+                        </div>
+                    </div>
+                    <div class="h-drop">
+                        <a class="h-drop-link">drop</a>
+                        <div class="h-sub">
+                            <a href="">sublink</a>
+                            <a href="">sub2</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img class="toggle-r" src="../static/images/Arrow-up.png" alt="arrow-up">
+        </div>
+        <div class="row style-pri-2">
+            <div class="col-16 tx-a-hc">
+                <p>---</p>
+                <p>Thanks for checking out my profile. Feel free to peruse the various projects I built while attending
+                    CodeDojo. Feel free to drop a comment when that functionality becomes available</p>
+            </div>
+        </div>
+        <div class="row style-pri-1">
+            <div class="col-4 tx-sz-sm list-1">
+                <h3>List 1 Style</h3>
+                <ul>
+                    <li>HTML/CSS Projects
+                        <ul>
+                            <li>Hello World</li>
+                            <li>Playing with Blocks</li>
+                            <li>More Lines</li>
+                            <li><a href=""> This one is a link</a></li>
+                            <li><a href="">This one too!</a></li>
+                            <li>Responsive Design</li>
+                        </ul>
+                    </li>
+                    <li>CSS library</li>
+                </ul>
+            </div>
+            <!--Note the comments between the Div's handles the natural gap between the divs whose widths are managed by %.
+            -->
+            <div class="col-8 tx-a-hc">
+                <iframe id="frame" src="1.png"></iframe>
+                <div id="pager" class="hmenu-sm">
+
+                </div>
+                <div class="row tx-a-vc">
+                    <div class="col-12 tx-a-vc">
+                        <p class="tx-a-vc">more stuff</p>
+                    </div>
+                </div>
+            </div>
+            <!--Note the comments between the Div's handles the natural gap between the divs whose widths are managed by %.
+            -->
+            <div class="col-4">
+                <p>right side stuff</p>
+            </div>
+        </div>
+        <div class="row style-pri-4">
+            <div class="col-4">
+                <p>stuff here</p>
+            </div>
+            <div class="col-5 tx-a-vc">
+                <p> stuff here</p>
+                <div class="row tx-a-vc">
+                    <div class="col-12 tx-a-vc">
+                        <p class="tx-a-vc">more stuff</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

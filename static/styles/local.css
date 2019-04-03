@@ -73,3 +73,25 @@ bg-nav options provide the structure for styling hovers and dropdowns on header 
     background-color: rgb(104, 124, 133);
     color: white;
 } 
+
+#pager{
+    width: 100%;
+    text-align: center;
+}
+#pager button{
+    background-color: white;
+    min-width: 35px;
+    display: inline-block;
+    border-right: 1px solid black;
+    padding: 5px;
+    color: black;
+} 
+
+#pager button:hover{
+    background-color: rgb(104, 124, 133);
+    color: white;
+} 
+#pager .current {
+    background-color: rgb(30, 88, 116);
+    color: white;
+} 
